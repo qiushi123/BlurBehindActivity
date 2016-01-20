@@ -1,0 +1,45 @@
+1，把项目中的qclCopy文件夹里的类直接复制到你的项目就行
+
+2，复制好了就直接使用就行
+	比如你从MainActivity跳转到activity2
+	public class MainActivity extends Activity {
+		@Override
+		protected void onCreate(Bundle savedInstanceState) {
+			super.onCreate(savedInstanceState);
+			setContentView(R.layout.activity_main);
+			findViewById(R.id.dummy_button).setOnClickListener(new View.OnClickListener() {
+				@Override
+				public void onClick(View v) {
+
+					BlurBehind.getInstance().execute(MainActivity.this, new OnBlurCompleteListener() {
+						@Override
+						public void onBlurComplete() {
+							Intent intent = new Intent(MainActivity.this, MainActivity2.class);
+							intent.setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+
+							startActivity(intent);
+						}
+					});
+				}
+			});
+
+		}
+	}
+
+
+
+	public class MainActivity2 extends Activity {
+		@Override
+		protected void onCreate(Bundle savedInstanceState) {
+			super.onCreate(savedInstanceState);
+			setContentView(R.layout.activity_blurred);
+
+			BlurBehind.getInstance()//在你需要添加模糊或者透明的背景中只需要设置这几行简单的代码就可以了
+					.withAlpha(50)
+					.withFilterColor(Color.parseColor("#0075c0"))
+					.setBackground(this);
+		}
+	}
+
+3,直接运行apk文件夹下的apk可以直接看效果
+
