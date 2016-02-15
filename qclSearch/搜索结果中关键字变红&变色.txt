@@ -2,6 +2,7 @@
 
 使用步骤
 一，把下面自定义的MyTextView 复制到项目中
+
 import android.content.Context;
 import android.text.Spannable;
 import android.text.SpannableStringBuilder;
