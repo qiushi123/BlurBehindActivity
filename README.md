@@ -1,10 +1,12 @@
 # BlurBehindActivity
 仿ios给activity背景设置模糊度，可以设置任意透明度（只需要一行代码简单集成）
+安卓模糊背景，半透明背景，任意透明度背景
 
 
 #使用步骤，只需下面简单2步。
 ##1，把项目中的qclCopy文件夹里的类直接复制到你的项目就行
 
+![image](https://github.com/qiushi123/BlurBehindActivity/blob/master/images_qcl/qcl.png?raw=true)
 ##2，完成好第一步就直接使用了
 ###比如你从MainActivity跳转到activity2
 	public class MainActivity extends Activity {
