@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">TestDemo</string>
+    <string name="pattern">紫陌红尘，蓦然{回首}。多少的{春花秋月};多少的{逝水沉香};多少的{海誓山盟}，如沿途的风景{花开花谢}。人世间的情缘{触痛了}多少无言的{感慨}，{情深缘浅}的风吹散了多少{相聚离散}。花开是有情，花落是无意。来者是{萍水相逢}，去者是{江湖相忘}。缘起时，我在{人群}中看到你。缘灭时，你{消失}在人群中。</string>
+    <string
+        name="pattern_search">Android是一种基于Linux的自由及开放源代码的操作系统，Android操作系统最初由Andy Rubin开发，主要支持手机。Android系统。随后Google以Apache开源许可证的授权方式，发布了Android的源代码。第一部Android智能手机发布于2008年10月。Android逐渐扩展到平板电脑，Android在全球的市场份额首次超过塞班系统</string>
 </resources>

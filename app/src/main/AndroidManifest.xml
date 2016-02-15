@@ -16,7 +16,22 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainActivity2">
+            <!--模糊背景界面-->
         </activity>
+        <activity android:name=".MainActivity_Blur">
+        </activity>
+        <activity android:name=".MainActivity_Broken">
+        </activity>
+
+        <!--textview中制定字段变红-->
+        <activity android:name=".MainActivityColor">
+        </activity>
+
+        <!--3d滚动的listview-->
+        <activity android:name=".MainActivity3DListview">
+        </activity>
+        <!--搜索结果中指定字段变色-->
+        <activity android:name=".MainActivitySearchTextColor"/>
     </application>
 
 </manifest>

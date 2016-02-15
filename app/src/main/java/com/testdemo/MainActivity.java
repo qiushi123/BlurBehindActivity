@@ -5,30 +5,46 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import com.testdemo.blurbehind.BlurBehind;
-import com.testdemo.blurbehind.OnBlurCompleteListener;
-
-public class MainActivity extends Activity {
+public class MainActivity extends Activity implements View.OnClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        findViewById(R.id.dummy_button).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
 
-                BlurBehind.getInstance().execute(MainActivity.this, new OnBlurCompleteListener() {
-                    @Override
-                    public void onBlurComplete() {
-                        Intent intent = new Intent(MainActivity.this, MainActivity2.class);
-                        intent.setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+        findViewById(R.id.button1).setOnClickListener(this);
+        findViewById(R.id.button2).setOnClickListener(this);
+        findViewById(R.id.button3).setOnClickListener(this);
+        findViewById(R.id.button4).setOnClickListener(this);
+        findViewById(R.id.button5).setOnClickListener(this);
+    }
 
-                        startActivity(intent);
-                    }
-                });
-            }
-        });
+    @Override
+    public void onClick(View v) {
+        switch (v.getId()) {
+            case R.id.button1:
+                Intent intent = new Intent(this, MainActivity_Blur.class);
+                startActivity(intent);
+                break;
 
+            case R.id.button2:
+                intent = new Intent(this, MainActivity_Broken.class);
+                startActivity(intent);
+                break;
+
+            case R.id.button3:
+                intent = new Intent(this, MainActivityColor.class);
+                startActivity(intent);
+                break;
+
+            case R.id.button4:
+                intent = new Intent(this, MainActivity3DListview.class);
+                startActivity(intent);
+                break;
+            case R.id.button5:
+                intent = new Intent(this, MainActivitySearchTextColor.class);
+                startActivity(intent);
+                break;
+        }
     }
 }
