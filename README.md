@@ -163,7 +163,7 @@ public class TextActivity04 extends Activity
 对图像进行颜色方面的处理，通过使用颜色矩阵（ColorMatrix）来实现。从而可以达到很多特效如黑白老照片、泛黄旧照片等等。
 
 ##颜色矩阵(ColorMatrix)实现滤镜效果
-	###一，知识简介
+###一，知识简介
 		一张位图可以转换为一个5*4的矩阵，涉及到颜色和透明度。如图1所示。在Android中，
 		颜色矩阵M是以一维数组m=[a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t]的方式进行存储的。
 		在一张图片中，图像的RGBA（红色、绿色、蓝色、透明度）值决定了该图片所呈现出来的颜色效果。
@@ -180,7 +180,7 @@ public class TextActivity04 extends Activity
 		如图4所示的颜色矩阵M1，通过计算后可以得知该颜色矩阵的作用是使图像的红色分量和绿色分量均增加100，
 		这样的效果就是图片泛黄（因为红色与绿色混合后得到黄色）。
 
-	###二，以黑白效果为例（有两种实现方法）
+###二，以黑白效果为例（有两种实现方法）
 		1，用数组矩阵
 			float[] array = {1, 0, 0, 0, 100,
                          0, 1, 0, 0, 100,
@@ -243,7 +243,7 @@ public class GrayFilter {
 			imageview.setBackground(new BitmapDrawable(getResources(), newBitmap));
 
 			
-	###三，常用的颜色矩阵
+###三，常用的颜色矩阵
 		1，宝丽来彩色[Polaroid Color]
 			
 			float[] array = {1.438, -0.062, -0.062, 0, 0,
@@ -281,7 +281,13 @@ public class GrayFilter {
 			0,0,0,1,0  
 			 
 ###下面是效果图			 
-			 
+![image](https://github.com/qiushi123/BlurBehindActivity/blob/master/images_qcl/5_meitu_1.png) 	
+
+
+
+
+#我的个人博客
+## http://blog.csdn.net/qiushi_1990
 			 
 		
 	
