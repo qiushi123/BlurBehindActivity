@@ -32,6 +32,10 @@
         </activity>
         <!--搜索结果中指定字段变色-->
         <activity android:name=".MainActivitySearchTextColor"/>
+        <!--自定义图片滤镜效果-->
+        <activity android:name=".MainActivityImgFliter"/>
+        <!--自定义图片滤镜效果,通过颜色矩阵-->
+        <activity android:name=".MainActivityImgFliter_JuZhen"/>
     </application>
 
 </manifest>

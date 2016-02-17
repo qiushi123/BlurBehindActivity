@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/colorView_layout"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical">
+
+    <com.testdemo.fliter_lib.ColorView
+        android:id="@+id/myColorView"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="fitEnd"/>
+
+    <LinearLayout
+        android:id="@+id/colorlayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/Edit1"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="1"/>
+
+        <EditText
+            android:id="@+id/Edit2"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="0"
+            />
+
+        <EditText
+            android:id="@+id/Edit3"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="0"/>
+
+        <EditText
+            android:id="@+id/Edit4"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="0"/>
+
+        <EditText
+            android:id="@+id/Edit5"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="0"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/colorlayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/Edit6"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="0"/>
+
+        <EditText
+            android:id="@+id/Edit7"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="1"/>
+
+        <EditText
+            android:id="@+id/Edit8"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="0"/>
+
+        <EditText
+            android:id="@+id/Edit9"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="0"/>
+
+        <EditText
+            android:id="@+id/Edit10"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="0"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/colorlayout3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/Edit11"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="0"/>
+
+        <EditText
+            android:id="@+id/Edit12"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="0"/>
+
+        <EditText
+            android:id="@+id/Edit13"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="1"/>
+
+        <EditText
+            android:id="@+id/Edit14"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="0"/>
+
+        <EditText
+            android:id="@+id/Edit15"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="0"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/colorlayout4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/Edit16"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="0"/>
+
+        <EditText
+            android:id="@+id/Edit17"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="0"/>
+
+        <EditText
+            android:id="@+id/Edit18"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="0"/>
+
+        <EditText
+            android:id="@+id/Edit19"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="1"/>
+
+        <EditText
+            android:id="@+id/Edit20"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="0"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:text="提交"/>
+
+</LinearLayout>

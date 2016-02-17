@@ -17,6 +17,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
         findViewById(R.id.button3).setOnClickListener(this);
         findViewById(R.id.button4).setOnClickListener(this);
         findViewById(R.id.button5).setOnClickListener(this);
+        findViewById(R.id.button6).setOnClickListener(this);
+        findViewById(R.id.button7).setOnClickListener(this);
     }
 
     @Override
@@ -43,6 +45,14 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 break;
             case R.id.button5:
                 intent = new Intent(this, MainActivitySearchTextColor.class);
+                startActivity(intent);
+                break;
+            case R.id.button6:
+                intent = new Intent(this, MainActivityImgFliter.class);
+                startActivity(intent);
+                break;
+            case R.id.button7:
+                intent = new Intent(this, MainActivityImgFliter_JuZhen.class);
                 startActivity(intent);
                 break;
         }

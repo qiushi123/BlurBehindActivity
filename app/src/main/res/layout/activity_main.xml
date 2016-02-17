@@ -54,4 +54,24 @@
         android:text="搜索关键字变颜色"
         android:textSize="25sp"/>
 
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button5"
+        android:layout_margin="10dp"
+        android:background="@drawable/background_button"
+        android:text="饱和度自定义图片滤镜效果"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button6"
+        android:layout_margin="10dp"
+        android:background="@drawable/background_button"
+        android:text="颜色矩阵设置滤镜效果"
+        android:textSize="25sp"/>
+
 </RelativeLayout>
