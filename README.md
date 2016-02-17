@@ -153,7 +153,7 @@ public class TextActivity04 extends Activity
 
 #下面是效果图
 
-![image](https://github.com/qiushi123/BlurBehindActivity/blob/master/images_qcl/2015031808522296.png) 
+![image](http://img.my.csdn.net/uploads/201602/17/1455693257_3865.png) 
 	
 	
 
